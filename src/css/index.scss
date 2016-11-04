@@ -12,9 +12,11 @@ p {
 a {
 	font-family: 'Lato', sans-serif;
 	font-weight: 300;
+	color: #e99522;
 	&:hover {
 		background: rgba(0,0,0,0.1);
 		border-radius: 2px;
+		// color: #e99522;
 	}
 }
 header {
@@ -24,6 +26,30 @@ header {
 	display: inline-block;
 	box-shadow: 0px 2px 1px #cacaca;
 }
+/*
+	nav
+*/
+nav {
+	box-sizing: initial;
+}
+.nav-bar {
+	z-index: 1;
+	color: #FFF;
+}
+// .nav-list-main {
+// 	background: #E54C66;
+// 	text-align: right !important;
+// }
+.nav-list-sub {
+	z-index: 1;
+	background: #E54C66;
+	box-shadow: 0px 3px 3px rgba(0,0,0,0.3);
+}
+.nav-list-sub > li:nth-child(2) {
+	font-weight: bold;
+}
+
+
 body {
 	background: #efefef;
 }
@@ -62,5 +88,29 @@ footer {
 	text-align: center;
 	h1,h5,a{
 		color: #cacaca;
+	}
+}
+.slide {
+	position: relative;
+	margin: 25px;
+	box-shadow: 1px 2px 1px #cacaca;
+}
+.portfolio-slide {
+	position: relative;
+	margin: 10px;
+	text-align: center;
+		p {
+			font-size: 1.2rem;
+			color: #e99522;
+			font-weight: 400;
+		}
+}
+.port-item {
+	background: #cacaca;
+	height: 300px;
+	padding: 25px;
+	text-align: left;
+	h3 {
+	color: #fff;
 	}
 }
