@@ -4,6 +4,10 @@
     color: #333333;
     font-size: 16px;
     font-family: 'Lato', sans-serif;
+    transition: all 300ms ease;
+    -ms-transition: all 300ms ease;
+    -moz-transition: all 300ms ease;
+    -webkit-transition: all 300ms ease;
 }
 
 html, body, main {
@@ -18,8 +22,7 @@ header {
     width: 100%;
     height: 5vh;
     position: fixed;
-    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.3);
-    background: rgba(255, 255, 255, 0.7);
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.3);
 }
 
 header a {
@@ -44,7 +47,7 @@ section:first-of-type {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: left top;
-    background-image: url("/assets/img/taxi-dark.jpg");
+    background-image: url("/assets/img/taxi.jpg");
 }
 
 h1 {
@@ -101,7 +104,7 @@ form input:active, form input:focus {
 }
 
 .button:hover {
-    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.6);
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.3);
 }
 
 .box {
@@ -207,6 +210,10 @@ form input:active, form input:focus {
     background: #ffffff;
 }
 
+.glass {
+    background: rgba(255, 255, 255, 0.6);
+}
+
 .b-orange {
     background: #ff9900;
 }
@@ -227,9 +234,13 @@ form input:active, form input:focus {
     color: #333333;
 }
 
+.glass, .glass h1, .glass h2, .glass h3, .glass p {
+    color: #333333;
+}
+
 .title h1 {
     font-size: 10vw;
-    text-shadow: 0 3px 9px rgba(0, 0, 0, 0.6);
+    text-shadow: 0 3px 6px rgba(0, 0, 0, 0.3);
 }
 
 .title strong {
@@ -239,7 +250,7 @@ form input:active, form input:focus {
 
 .sub-title h1 {
     font-size: 4vw;
-    text-shadow: 0 3px 9px rgba(0, 0, 0, 0.6);
+    text-shadow: 0 1px 6px rgba(0, 0, 0, 0.3);
 }
 
 .checker-board {
@@ -259,38 +270,22 @@ form input:active, form input:focus {
 
 .checker-board.odd.black > div:nth-child(odd) {
     background: rgba(51, 51, 51, 0.7);
-    box-shadow: 0 0 9px rgba(0, 0, 0, 0.3);
-}
-
-.checker-board.odd.black > div:nth-child(even) {
-    background: rgba(255, 255, 255, 0.7);
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.3);
 }
 
 .checker-board.even.black > div:nth-child(even) {
     background: rgba(51, 51, 51, 0.7);
-    box-shadow: 0 0 9px rgba(0, 0, 0, 0.3);
-}
-
-.checker-board.even.black > div:nth-child(odd) {
-    background: rgba(255, 255, 255, 0.7);
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.3);
 }
 
 .checker-board.odd.orange > div:nth-child(odd) {
     background: rgba(255, 153, 0, 0.7);
-    box-shadow: 0 0 9px rgba(0, 0, 0, 0.3);
-}
-
-.checker-board.odd.orange > div:nth-child(even) {
-    background: rgba(255, 255, 255, 0.7);
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.3);
 }
 
 .checker-board.even.orange > div:nth-child(even) {
     background: rgba(255, 153, 0, 0.7);
-    box-shadow: 0 0 9px rgba(0, 0, 0, 0.3);
-}
-
-.checker-board.even.orange > div:nth-child(odd) {
-    background: rgba(255, 255, 255, 0.7);
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.3);
 }
 
 .tiles {
@@ -299,13 +294,6 @@ form input:active, form input:focus {
     max-height: 90%;
     text-align: center;
     vertical-align: middle;
-}
-
-.tiles * {
-    transition: all 300ms ease;
-    -ms-transition: all 300ms ease;
-    -moz-transition: all 300ms ease;
-    -webkit-transition: all 300ms ease;
 }
 
 .tile {
@@ -320,7 +308,7 @@ form input:active, form input:focus {
     text-decoration: none;
     display: inline-block;
     vertical-align: middle;
-    box-shadow: 0 0 6px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.3);
 }
 
 .tile h3, .tile p {
@@ -328,7 +316,7 @@ form input:active, form input:focus {
 }
 
 .tile:hover {
-    box-shadow: 0 0 9px rgba(0, 0, 0, 0.4);
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.3);
 }
 
 .tile img {
@@ -354,7 +342,7 @@ form input:active, form input:focus {
         height: 45px !important;
     }
     .nav-list-main {
-        box-shadow: 0 3px 6px rgba(0, 0, 0, 0.3);
+        box-shadow: 0 1px 6px rgba(0, 0, 0, 0.3);
         background: rgba(255, 255, 255, 0.7);
         width: 100vw !important;
         text-align: center !important;
