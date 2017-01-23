@@ -22,9 +22,10 @@ header {
 	top: 0;
 	left: 0;
 	width: 100%;
+	height: 5vh;
 	position: fixed;
-	background: $white;
 	box-shadow: 0 3px 6px rgba(0,0,0,0.3);
+	background: transparentize($white, 0.3);
 }
 header a {
 	text-decoration: none;
@@ -37,27 +38,17 @@ section {
 	padding: 10vh 10vw;
 }
 section:first-of-type {
-	padding: 0;
 	width: 100vw;
-	// min-height: 100vh;
 	box-sizing: border-box;
 
-	min-height: 95vh;
-	margin: 5vh 0 0 0;
+	min-height: 100vh;
+	padding: 5vh 0 0 0;
 
-	// background-size: cover;
-	// background-repeat: no-repeat;
-	// background-position: left center;
-	// background-image: url('/assets/img/taxi-dark.jpg');
-}
-section:first-of-type > div:nth-child(2) {
-	// top: 0;
-	// left: 0;
-	// right: 0;
-	// bottom: 0;
-	// margin: auto;
-	// position: absolute;
-	// background: radial-gradient(rgba(255, 255, 255, 0.5) 30%, rgba(255, 255, 255, 0.5) 40%, transparent 70%);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: left top;
+	background-image: url('/assets/img/taxi-dark.jpg');
 }
 h1 {
 	font-size: 3rem;
@@ -233,17 +224,19 @@ form input:active, form input:focus {
 
 // home
 .title h1 {
-	// color: $black;
 	font-size: 10vw;
+	text-shadow: 0 3px 9px rgba(0, 0, 0, 0.6);
 }
 .title strong {
 	color: $orange;
 	font-size: 10vw;
 }
 .sub-title h1 {
-	// color: $black;
 	font-size: 4vw;
+	text-shadow: 0 3px 9px rgba(0, 0, 0, 0.6);
 }
+
+// checker
 .checker-board {
 	width: 100vw;
 	display: block;
@@ -257,43 +250,33 @@ form input:active, form input:focus {
 	display: inline-block;
 	box-sizing: border-box;
 }
-.checker-board.odd {
-	// border-top: solid 1px #ff9900;
-}
-.checker-board.even {
-	// border-bottom: solid 1px #ff9900;
-}
-
-// black
 .checker-board.odd.black > div:nth-child(odd) {
-	background: $black;
+	background: transparentize($black, 0.3);
 	box-shadow: 0 0 9px rgba(0,0,0,0.3);
 }
 .checker-board.odd.black > div:nth-child(even) {
-	background: $white;
+	background: transparentize($white, 0.3);
 }
 .checker-board.even.black > div:nth-child(even) {
-	background: $black;
+	background: transparentize($black, 0.3);
 	box-shadow: 0 0 9px rgba(0,0,0,0.3);
 }
 .checker-board.even.black > div:nth-child(odd) {
-	background: $white;
+	background: transparentize($white, 0.3);
 }
-
-// orange
 .checker-board.odd.orange > div:nth-child(odd) {
-	background: $orange;
+	background: transparentize($orange, 0.3);
 	box-shadow: 0 0 9px rgba(0,0,0,0.3);
 }
 .checker-board.odd.orange > div:nth-child(even) {
-	background: $white;
+	background: transparentize($white, 0.3);
 }
 .checker-board.even.orange > div:nth-child(even) {
-	background: $orange;
+	background: transparentize($orange, 0.3);
 	box-shadow: 0 0 9px rgba(0,0,0,0.3);
 }
 .checker-board.even.orange > div:nth-child(odd) {
-	background: $white;
+	background: transparentize($white, 0.3);
 }
 
 // tiles
@@ -344,31 +327,20 @@ form input:active, form input:focus {
 	text-align: right !important;
 }
 
-// .slide {
-// 	position: relative;
-// 	margin: 25px;
-// 	box-shadow: 1px 2px 1px #cacaca;
-// }
-// .portfolio-slide {
-// 	position: relative;
-// 	text-align: center;
-// 	p {
-// 		font-size: 1.2rem;
-// 		color: #ff9900;
-// 		font-weight: 400;
-// 	}
-// }
-// .port-item {
-// 	text-align: center;
-// 	background: white;
-// 	padding: 25px;
-// }
-
+// mobile
 @media screen and (max-width: 1034px) {
+	.nav-tool {
+		height: 52px !important;
+	}
+	.nav-icon-menu-wrap {
+		width: 45px !important;
+		height: 45px !important;
+	}
 	.nav-list-main {
-		background: $white;
+		box-shadow: 0 3px 6px rgba(0,0,0,0.3);
+		background: transparentize($white, 0.3);
+
 		width: 100vw !important;
 		text-align: center !important;
-		box-shadow: 0 1px 6px rgba(0,0,0,0.3);
 	}
 }
