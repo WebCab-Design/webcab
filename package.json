@@ -1,0 +1,25 @@
+{
+  "name": "webcab.site",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WebCab-Design/webcab.git"
+  },
+  "author": "WebCab",
+  "license": "SEE LICENSE IN LICENSE",
+  "bugs": {
+    "url": "https://github.com/WebCab-Design/webcab/issues"
+  },
+  "homepage": "https://github.com/WebCab-Design/webcab#readme",
+  "dependencies": {
+    "erbium": "^1.4.5"
+  }
+}

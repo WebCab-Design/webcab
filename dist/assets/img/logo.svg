@@ -1,64 +1,57 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 21.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 336 192" style="enable-background:new 0 0 336 192;" xml:space="preserve">
-<style type="text/css">
-	.st0{fill:#333333;}
-	.st1{font-family:'FuturaPT-Book';}
-	.st2{font-size:60.0427px;}
-	.st3{fill:#FF9900;}
-	.st4{font-family:'FuturaPT-Heavy';}
-	.st5{fill:#FFFFFF;}
-</style>
-<rect x="-1" y="0.4" class="st0" width="336" height="31.9"/>
-<text transform="matrix(1 0 0 1 55.0615 115.8623)" class="st0 st1 st2">Web</text>
-<text transform="matrix(1 0 0 1 170.1572 115.8623)" class="st3 st4 st2">CAB</text>
-<g transform="matrix(0.501009, 0, 0.000001, 0.506164, 192.024231, 94.816505)">
-	<rect x="31.9" y="160.1" class="st3" width="31.9" height="31.9"/>
-	<rect x="0" y="128.2" class="st3" width="31.9" height="31.9"/>
-	<rect x="63.9" y="128.2" class="st3" width="31.9" height="31.9"/>
-	<rect x="95.8" y="160.1" class="st3" width="31.9" height="31.9"/>
-	<rect x="127.7" y="128.2" class="st3" width="31.9" height="31.9"/>
-	<rect x="159.6" y="160.1" class="st3" width="31.9" height="31.9"/>
-	<rect x="191.6" y="128.2" class="st3" width="31.9" height="31.9"/>
-	<rect x="223.5" y="160.1" class="st3" width="31.9" height="31.9"/>
-	<rect x="255.4" y="128.2" class="st3" width="31.9" height="31.9"/>
-	<rect x="-351.3" y="160.1" class="st3" width="31.9" height="31.9"/>
-	<rect x="-383.3" y="128.2" class="st3" width="31.9" height="31.9"/>
-	<rect x="-319.4" y="128.2" class="st3" width="31.9" height="31.9"/>
-	<rect x="-287.5" y="160.1" class="st3" width="31.9" height="31.9"/>
-	<rect x="-255.6" y="128.2" class="st3" width="31.9" height="31.9"/>
-	<rect x="-223.6" y="160.1" class="st3" width="31.9" height="31.9"/>
-	<rect x="-191.7" y="128.2" class="st3" width="31.9" height="31.9"/>
-	<rect x="-159.8" y="160.1" class="st3" width="31.9" height="31.9"/>
-	<rect x="-127.8" y="128.2" class="st3" width="31.9" height="31.9"/>
-	<rect x="-95.9" y="160.1" class="st3" width="31.9" height="31.9"/>
-	<rect x="-64" y="128.2" class="st3" width="31.9" height="31.9"/>
-	<rect x="-32" y="160.1" class="st3" width="31.9" height="31.9"/>
-</g>
-<g transform="matrix(0.809461, 0, 0, 0.811669, 1.773863, 126.245285)">
-</g>
-<g transform="matrix(-0.501009, 0, -0.000001, -0.506164, 143.975769, 97.183487)">
-	<rect x="33.9" y="160.1" class="st5" width="31.9" height="31.9"/>
-	<rect x="2" y="128.2" class="st5" width="31.9" height="31.9"/>
-	<rect x="65.9" y="128.2" class="st5" width="31.9" height="31.9"/>
-	<rect x="97.8" y="160.1" class="st5" width="31.9" height="31.9"/>
-	<rect x="129.7" y="128.2" class="st5" width="31.9" height="31.9"/>
-	<rect x="161.6" y="160.1" class="st5" width="31.9" height="31.9"/>
-	<rect x="193.6" y="128.2" class="st5" width="31.9" height="31.9"/>
-	<rect x="225.5" y="160.1" class="st5" width="31.9" height="31.9"/>
-	<rect x="257.4" y="128.2" class="st5" width="31.9" height="31.9"/>
-	<rect x="-349.3" y="160.1" class="st5" width="31.9" height="31.9"/>
-	<rect x="-381.3" y="128.2" class="st5" width="31.9" height="31.9"/>
-	<rect x="-317.4" y="128.2" class="st5" width="31.9" height="31.9"/>
-	<rect x="-285.5" y="160.1" class="st5" width="31.9" height="31.9"/>
-	<rect x="-253.6" y="128.2" class="st5" width="31.9" height="31.9"/>
-	<rect x="-221.6" y="160.1" class="st5" width="31.9" height="31.9"/>
-	<rect x="-189.7" y="128.2" class="st5" width="31.9" height="31.9"/>
-	<rect x="-157.8" y="160.1" class="st5" width="31.9" height="31.9"/>
-	<rect x="-125.8" y="128.2" class="st5" width="31.9" height="31.9"/>
-	<rect x="-93.9" y="160.1" class="st5" width="31.9" height="31.9"/>
-	<rect x="-62" y="128.2" class="st5" width="31.9" height="31.9"/>
-	<rect x="-30" y="160.1" class="st5" width="31.9" height="31.9"/>
-</g>
+<svg viewBox="0.0 0.0 336.0 192.0" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <style id="bx-google-fonts">@import url(https://fonts.googleapis.com/css?family=Lato:100,100italic,300,300italic,400,400italic,700,700italic,900,900italic);</style>
+    </defs>
+    <g transform="matrix(0.501009, 0, 0.000001, 0.506164, 192.024231, 94.816505)">
+        <rect width="31.93" height="31.89" y="160.11" x="31.93" style="fill: rgb(255, 153, 0);"/>
+        <rect width="31.93" height="31.89" y="128.221" style="fill: rgb(255, 153, 0);"/>
+        <rect width="31.93" height="31.89" y="128.221" x="63.86" style="fill: rgb(255, 153, 0);"/>
+        <rect width="31.93" height="31.89" y="160.11" x="95.79" style="fill: rgb(255, 153, 0);"/>
+        <rect width="31.93" height="31.89" y="128.221" x="127.72" style="fill: rgb(255, 153, 0);"/>
+        <rect width="31.93" height="31.89" y="160.11" x="159.65" style="fill: rgb(255, 153, 0);"/>
+        <rect width="31.93" height="31.89" y="128.221" x="191.58" style="fill: rgb(255, 153, 0);"/>
+        <rect width="31.93" height="31.89" y="160.11" x="223.511" style="fill: rgb(255, 153, 0);"/>
+        <rect width="31.93" height="31.89" y="128.221" x="255.441" style="fill: rgb(255, 153, 0);"/>
+        <rect width="31.93" height="31.89" y="160.11" x="-351.345" style="fill: rgb(255, 153, 0);"/>
+        <rect width="31.93" height="31.89" y="128.221" x="-383.275" style="fill: rgb(255, 153, 0);"/>
+        <rect width="31.93" height="31.89" y="128.221" x="-319.415" style="fill: rgb(255, 153, 0);"/>
+        <rect width="31.93" height="31.89" y="160.11" x="-287.485" style="fill: rgb(255, 153, 0);"/>
+        <rect width="31.93" height="31.89" y="128.221" x="-255.555" style="fill: rgb(255, 153, 0);"/>
+        <rect width="31.93" height="31.89" y="160.11" x="-223.625" style="fill: rgb(255, 153, 0);"/>
+        <rect width="31.93" height="31.89" y="128.221" x="-191.695" style="fill: rgb(255, 153, 0);"/>
+        <rect width="31.93" height="31.89" y="160.11" x="-159.764" style="fill: rgb(255, 153, 0);"/>
+        <rect width="31.93" height="31.89" y="128.221" x="-127.834" style="fill: rgb(255, 153, 0);"/>
+        <rect width="31.93" height="31.89" y="160.11" x="-95.904" style="fill: rgb(255, 153, 0);"/>
+        <rect width="31.93" height="31.89" y="128.219" x="-63.974" style="fill: rgb(255, 153, 0);"/>
+        <rect width="31.93" height="31.89" y="160.11" x="-32.044" style="fill: rgb(255, 153, 0);"/>
+    </g>
+    <g transform="matrix(0.809461, 0, 0, 0.811669, 1.773863, 126.245285)"/>
+    <g transform="matrix(-0.501009, 0, -0.000001, -0.506164, 143.975769, 97.183487)">
+        <rect width="31.93" height="31.89" y="160.11" x="31.93" style="fill: rgb(51, 51, 51);"/>
+        <rect width="31.93" height="31.89" y="128.221" style="fill: rgb(51, 51, 51);"/>
+        <rect width="31.93" height="31.89" y="128.221" x="63.86" style="fill: rgb(51, 51, 51);"/>
+        <rect width="31.93" height="31.89" y="160.11" x="95.79" style="fill: rgb(51, 51, 51);"/>
+        <rect width="31.93" height="31.89" y="128.221" x="127.72" style="fill: rgb(51, 51, 51);"/>
+        <rect width="31.93" height="31.89" y="160.11" x="159.65" style="fill: rgb(51, 51, 51);"/>
+        <rect width="31.93" height="31.89" y="128.221" x="191.58" style="fill: rgb(51, 51, 51);"/>
+        <rect width="31.93" height="31.89" y="160.11" x="223.511" style="fill: rgb(51, 51, 51);"/>
+        <rect width="31.93" height="31.89" y="128.221" x="255.441" style="fill: rgb(51, 51, 51);"/>
+        <rect width="31.93" height="31.89" y="160.11" x="-351.345" style="fill: rgb(51, 51, 51);"/>
+        <rect width="31.93" height="31.89" y="128.221" x="-383.275" style="fill: rgb(51, 51, 51);"/>
+        <rect width="31.93" height="31.89" y="128.221" x="-319.415" style="fill: rgb(51, 51, 51);"/>
+        <rect width="31.93" height="31.89" y="160.11" x="-287.485" style="fill: rgb(51, 51, 51);"/>
+        <rect width="31.93" height="31.89" y="128.221" x="-255.555" style="fill: rgb(51, 51, 51);"/>
+        <rect width="31.93" height="31.89" y="160.11" x="-223.625" style="fill: rgb(51, 51, 51);"/>
+        <rect width="31.93" height="31.89" y="128.221" x="-191.695" style="fill: rgb(51, 51, 51);"/>
+        <rect width="31.93" height="31.89" y="160.11" x="-159.764" style="fill: rgb(51, 51, 51);"/>
+        <rect width="31.93" height="31.89" y="128.221" x="-127.834" style="fill: rgb(51, 51, 51);"/>
+        <rect width="31.93" height="31.89" y="160.11" x="-95.904" style="fill: rgb(51, 51, 51);"/>
+        <rect width="31.93" height="31.89" y="128.219" x="-63.974" style="fill: rgb(51, 51, 51);"/>
+        <rect width="31.93" height="31.89" y="160.11" x="-32.044" style="fill: rgb(51, 51, 51);"/>
+    </g>
+    <g transform="matrix(1.076034, 0, 0, 1.076034, -11.815396, -10.325621)">
+        <text y="111.75" x="61.16" style="fill: rgb(51, 51, 51); font-family: Lato; font-size: 55.8px; font-variant: small-caps; font-weight: 300; white-space: pre;"><tspan>Web</tspan><tspan style="fill: rgb(255, 153, 0);">CAB</tspan></text>
+        <text x="41.199" y="137.969" style="fill: rgb(51, 51, 51); font-family: Lato; font-size: 13.9px; font-variant: small-caps; font-weight: 300; white-space: pre;">websites | webapps | development | design | seo</text>
+    </g>
 </svg>
