@@ -254,12 +254,20 @@ form input:active, form input:focus, form textarea:active, form textarea:focus {
     min-height: 100vh;
 }
 
-.white {
+.black {
     background: #333333;
 }
 
-.white h1, .white h2, .white h3, .white p {
+.black h1, .black h2, .black h3, .black p {
     color: #ffffff;
+}
+
+.gray {
+    background: #efefef;
+}
+
+.gray h1, .gray h2, .gray h3, .gray p {
+    color: #333333;
 }
 
 .white {

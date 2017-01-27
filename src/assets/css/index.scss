@@ -252,10 +252,16 @@ form input:active, form input:focus, form textarea:active, form textarea:focus {
 }
 
 // colors
-.white {
+.black {
 	background: $black;
 	h1, h2, h3, p {
 		color: $white;
+	}
+}
+.gray {
+	background: $gray;
+	h1, h2, h3, p {
+		color: $black;
 	}
 }
 .white {
