@@ -1,26 +1,52 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Contact | WebCab</title>
+	<meta charset="utf-8">
+	<meta name="theme-color" content="#ff9900">
+	<meta name="application-name" content="WebCab">
+	<meta name="msapplication-TileColor" content="#ff9900">
+	<meta name="apple-mobile-web-app-title" content="WebCab">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+
+	<link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png">
+	<link rel="icon" type="image/png" href="/assets/favicon/favicon-32x32.png" sizes="32x32">
+	<link rel="icon" type="image/png" href="/assets/favicon/favicon-194x194.png" sizes="194x194">
+	<link rel="icon" type="image/png" href="/assets/favicon/android-chrome-192x192.png" sizes="192x192">
+	<link rel="icon" type="image/png" href="/assets/favicon/favicon-16x16.png" sizes="16x16">
+	<link rel="manifest" href="/assets/favicon/manifest.json">
+	<link rel="shortcut icon" href="/assets/favicon/favicon.ico">
+	<meta name="msapplication-TileImage" content="/assets/favicon/mstile-144x144.png">
+	<meta name="msapplication-config" content="/assets/favicon/browserconfig.xml">
+
+	<meta name="description" content="WebCAB Design LLC is a website design, development, and SEO (search engine optimization) company located in Tucson Arizona. We are committed to providing the highest quality content, everything form graphics, SVG, code, and website performance."/>
+	<meta name="keywords" content="webcab, web, cab, apps, custom, websites, webapps, desgin, code, develop, development, seo, tucson, arizona, colorado, springs, cutting edge, optimization, quality, performance, code, graphics, SVG, logos, logo design">
+	<meta name="author" content="WebCAB Design LLC">
+
+	<title>Contact | WebCAB Design Code Bliss</title>
+
+	<link rel="stylesheet" href="/assets/css/flexboxgrid.min.css">
+	<link rel="stylesheet" href="/assets/css/index.css"/>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,400,400i,700,900" async>
+
+	<script src="/assets/js/astatine.min.js"></script>
 	<script src="/assets/js/nav-bar.js"></script>
 	<script src="/assets/js/checkers.js"></script>
-	<link rel="stylesheet" href="assets/css/flexboxgrid.min.css">
-	<link rel="stylesheet" type="text/css" href="assets/css/index.css"/>
-	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,400,400i,700,900" async>
+	<script src="/assets/js/index.js"></script>
 </head>
 <body>
 
 	<header class="glass">
 		<div class="row middle-xs">
-			<div class="col-xs-2 center-xs last-xs first-md">
-				<a href="#">520-000-000</a>
+			<div class="col-xs-6 col-sm-3 center-xs last-xs first-md">
+				<a class="button line" href="#">520.000.000</a>
 			</div>
-			<div class="col-xs-10 end-xs">
+			<div class="col-xs-6 col-sm-9 end-xs">
 				<nav class="nav-bar">
 					<ul>
-						<li><a href="#">About</a></li>
-						<li><a href="#">Projects</a></li>
-						<li><a href="#">Contact</a></li>
+						<li><a href="/">Home</a></li>
+						<li><a href="/about">About</a></li>
+						<li><a href="/projects">Projects</a></li>
+						<li><a href="/contact">Contact</a></li>
 					</ul>
 				</nav>
 			</div>
@@ -30,14 +56,67 @@
 	<main>
 	
 
+<section>
+	<h1>Contact</h1>
+</section>
+
+<section>
+	<h2>Information</h2>
+	<hr>
+
+	<div class="row center-xs">
+		<div class="col-xs-10 col-sm-5 col-md-4">
+			<div class="row start-xs">
+				<div class="col-xs-10"><strong>Hours:</strong> 9-5</div>
+				<div class="col-xs-10"><strong>Days:</strong> Monday-Friday</div>
+			</div>
+		</div>
+		<div class="col-xs-10 col-sm-5 col-md-4">
+			<div class="row start-xs">
+				<div class="col-xs-10">
+					<strong>Phone:</strong> <a class="button line" href="tel:5200000000">520.000.0000</a>
+				</div>
+				<div class="col-xs-10">
+					<strong>Email:</strong> <a class="button line" href="email:webcabdesign@gmail.com">webcabdesign@gmail.com</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+</section>
+
+<section>
+	<h2>Questions</h2>
+	<hr>
+
+	<form>
+		<div class="row center-xs middle-xs">
+			<input class="col-xs-10 col-sm-5" type="text" placeholder="First Name" required>
+			<input class="col-xs-10 col-sm-5" type="text" placeholder="Last Name" required>
+		</div>
+		<div class="row  center-xs middle-xs">
+			<input class="col-xs-10 col-sm-5" type="email" placeholder="Email" required>
+			<input class="col-xs-10 col-sm-5" type="tel" placeholder="Phone">
+		</div>
+		<div class="row  center-xs middle-xs">
+			<textarea class="col-xs-10" placeholder="Message"></textarea>
+		</div>
+		<div class="row center-xs middle-xs">
+			<input type="hidden" name="Form Name" value="WebCab Contact">
+			<input type="hidden" name="*formane" value="WebCab Contact">
+			<input class="button hallow" type="submit" value="SUBMIT">
+			<div class="response"></div>
+		</div>
+	</form>
+
+</section>
+
 	</main>
 
 	<footer class="b-gray">
+		<p>WebCAB Design LLC All Rights Reserved</p>
 		<p>
-			WebCab Design All Rights Reserved
-		</p>
-		<p>
-			<a href="#">site map</a> | <a href="#">privacy policy</a> | <a href="#">support</a>
+			<a class="button line" href="#">Site Map</a> | <a class="button line" href="#">Privacy Policy</a> | <a class="button line" href="#">Support</a>
 		</p>
 	</footer>
 

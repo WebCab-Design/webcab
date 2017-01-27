@@ -20,7 +20,7 @@ header {
     top: 0;
     left: 0;
     width: 100%;
-    height: 5vh;
+    height: 52px;
     position: fixed;
     box-shadow: 0 1px 6px rgba(0, 0, 0, 0.3);
 }
@@ -35,52 +35,67 @@ footer {
 }
 
 section {
-    padding: 10vh 10vw;
+    padding: 5vh 10vw;
+    box-sizing: border-box;
 }
 
 section:first-of-type {
-    width: 100vw;
-    box-sizing: border-box;
-    min-height: 100vh;
-    padding: 5vh 0 0 0;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: left top;
-    background-image: url("/assets/img/taxi.jpg");
+    padding: 52px 0 0 0;
 }
 
 h1 {
     font-size: 3rem;
     font-weight: 100;
+    text-align: center;
+    margin: 3rem auto 1.5rem auto;
 }
 
 h2 {
     font-size: 2rem;
     font-weight: 100;
-    margin: 2rem auto;
+    text-align: center;
+    margin: 2rem auto 1rem auto;
 }
 
 h3 {
-    font-size: 1.5rem;
     font-weight: 100;
+    font-size: 1.5rem;
+    max-width: 900px;
+    margin: 1.5rem auto 0.75rem auto;
+}
+
+form, p, ul {
+    margin: auto;
+    max-width: 900px;
 }
 
 p {
+    font-size: 1rem;
     padding: 0.5rem;
+    margin: 1rem auto;
 }
 
 a {
     color: #ff9900;
+    font-size: 1rem;
+    text-decoration: none;
+}
+
+ul {
+    padding: 0.5rem;
+    margin: 1rem auto;
+    list-style-position: inside;
 }
 
 hr {
-    width: 60%;
-    margin: 0 auto 2rem auto;
-    border: solid 1px #ff9900;
+    width: 90%;
+    border: none;
+    max-width: 1000px;
+    margin: 1rem auto 2rem auto;
+    border-bottom: solid 1px #ff9900;
 }
 
-form input {
+form input, form textarea {
     margin: 0.5rem;
     padding: 0.5rem;
     background: none;
@@ -91,20 +106,68 @@ form input {
     border-bottom: 1px solid #efefef;
 }
 
-form input:active, form input:focus {
+form input:active, form input:focus, form textarea:active, form textarea:focus {
     outline: none;
     background: #efefef;
 }
 
 .button {
     border: none;
+    margin: 1rem auto;
     cursor: pointer;
+    text-align: center;
     padding: 0.5rem 1rem;
+}
+
+.button.hallow {
+    color: #ff9900;
+    background: transparent;
+    border: solid 1px #ff9900;
+    text-transform: uppercase;
+}
+
+.button.hallow:hover {
+    color: #ffffff;
+    background: #ff9900;
+}
+
+.button.solid {
     box-shadow: 0 1px 6px rgba(0, 0, 0, 0.3);
 }
 
-.button:hover {
+.button.solid:hover {
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.3);
+}
+
+.button.line {
+    position: relative;
+}
+
+.button.line:after {
+    width: 80%;
+    height: 1px;
+    content: '';
+    background: #ff9900;
+    left: 0;
+    right: 0;
+    bottom: 5px;
+    margin: auto;
+    position: absolute;
+    transition: all 300ms ease;
+    -ms-transition: all 300ms ease;
+    -moz-transition: all 300ms ease;
+    -webkit-transition: all 300ms ease;
+}
+
+.button.line:hover:after {
+    width: 50%;
+}
+
+.paralax {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: left top;
 }
 
 .box {
@@ -186,77 +249,123 @@ form input:active, form input:focus {
     height: 15vh;
 }
 
-.b-blue {
-    background: #177E89;
+.vh-vw-100 {
+    width: 100vw;
+    min-height: 100vh;
 }
 
-.b-red {
-    background: #DB3A34;
-}
-
-.b-purple {
-    background: #333366;
-}
-
-.b-gray {
-    background: #efefef;
-}
-
-.b-black {
+.white {
     background: #333333;
 }
 
-.b-white {
+.white h1, .white h2, .white h3, .white p {
+    color: #ffffff;
+}
+
+.white {
     background: #ffffff;
+}
+
+.white h1, .white h2, .white h3, .white p {
+    color: #333333;
+}
+
+.orange {
+    background: #ff9900;
+}
+
+.orange h1, .orange h2, .orange h3, .orange p {
+    color: #ffffff;
 }
 
 .glass {
     background: rgba(255, 255, 255, 0.6);
 }
 
-.b-orange {
-    background: #ff9900;
-}
-
-.b-orange, .b-orange h1, .b-orange h2, .b-orange h3, .b-orange p {
-    color: #ffffff;
-}
-
-.b-purple, .b-purple h1, .b-purple h2, .b-purple h3, .b-purple p {
-    color: #ffffff;
-}
-
-.b-black, .b-black h1, .b-black h2, .b-black h3, .b-black p {
-    color: #ffffff;
-}
-
-.b-white, .b-white h1, .b-white h2, .b-white h3, .b-white p {
+.glass h1, .glass h2, .glass h3, .glass p {
     color: #333333;
 }
 
-.glass, .glass h1, .glass h2, .glass h3, .glass p {
-    color: #333333;
+.scroll {
+    bottom: 0;
+    width: 100%;
+    height: 15vh;
+    color: #ffffff;
+    position: absolute;
+    text-align: center;
+}
+
+.scroll .arrow {
+    width: 2rem;
+    height: 2em;
+    margin: auto;
+    position: relative;
+    transform: rotate(135deg);
+    border-top: 4px solid #ffffff;
+    border-right: 4px solid #ffffff;
+    -webkit-animation-name: down;
+    -webkit-animation-duration: 1.5s;
+    -webkit-animation-direction: reverse;
+    -webkit-animation-iteration-count: infinite;
+    animation-name: down;
+    animation-duration: 1.5s;
+    animation-direction: reverse;
+    animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes down {
+    0% {
+        left: 0;
+        top: 0;
+    }
+    50% {
+        left: 0;
+        top: 2rem;
+    }
+    100% {
+        left: 0;
+        top: 0;
+    }
+}
+
+@keyframes down {
+    0% {
+        left: 0;
+        top: 0;
+    }
+    50% {
+        left: 0;
+        top: 2rem;
+    }
+    100% {
+        left: 0;
+        top: 0;
+    }
 }
 
 .title h1 {
-    font-size: 10vw;
+    font-size: 9rem;
     text-shadow: 0 3px 6px rgba(0, 0, 0, 0.3);
 }
 
 .title strong {
     color: #ff9900;
-    font-size: 10vw;
+    font-size: 9rem;
 }
 
 .sub-title h1 {
-    font-size: 4vw;
+    font-size: 5rem;
     text-shadow: 0 1px 6px rgba(0, 0, 0, 0.3);
 }
 
 .checker-board {
-    width: 100vw;
-    display: block;
     font-size: 0;
+}
+
+.checker-row {
+    font-size: 0;
+    display: block;
+    perspective: 1000px;
 }
 
 .checker-tile {
@@ -266,40 +375,67 @@ form input:active, form input:focus {
     border-radius: 1px;
     display: inline-block;
     box-sizing: border-box;
+    transition: 0.6s;
+    position: relative;
+    transform: rotateY(0deg);
+    transform-style: preserve-3d;
 }
 
-.checker-board.odd.black > div:nth-child(odd) {
+.checker-tile:hover {
+    transform: rotateY(180deg);
+}
+
+.checker-tile-front, .checker-tile-back {
+    top: 0;
+    left: 0;
+    position: absolute;
+    backface-visibility: hidden;
+}
+
+.checker-tile-front {
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    transform: rotateY(0deg);
+}
+
+.checker-tile-back {
+    width: 100%;
+    height: 100%;
+    transform: rotateY(180deg);
+}
+
+.checker-board.i-0 .checker-row.even .checker-tile.odd {
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.3);
     background: rgba(51, 51, 51, 0.7);
-    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.3);
 }
 
-.checker-board.even.black > div:nth-child(even) {
+.checker-board.i-0 .checker-row.odd .checker-tile.even {
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.3);
     background: rgba(51, 51, 51, 0.7);
-    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.3);
 }
 
-.checker-board.odd.orange > div:nth-child(odd) {
-    background: rgba(255, 153, 0, 0.7);
+.checker-board.i-1 .checker-row.even .checker-tile.even {
     box-shadow: 0 1px 6px rgba(0, 0, 0, 0.3);
+    background: rgba(255, 153, 0, 0.7);
 }
 
-.checker-board.even.orange > div:nth-child(even) {
-    background: rgba(255, 153, 0, 0.7);
+.checker-board.i-1 .checker-row.odd .checker-tile.odd {
     box-shadow: 0 1px 6px rgba(0, 0, 0, 0.3);
+    background: rgba(255, 153, 0, 0.7);
 }
 
 .tiles {
-    width: 90%;
     margin: auto;
-    max-height: 90%;
+    max-width: 1050px;
     text-align: center;
     vertical-align: middle;
 }
 
 .tile {
     margin: 1rem;
-    padding: 1rem;
-    width: 270px;
+    padding: 2rem;
+    width: 250px;
     height: 200px;
     cursor: pointer;
     background: #efefef;
@@ -319,9 +455,9 @@ form input:active, form input:focus {
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.3);
 }
 
-.tile img {
+.tile img, .tile object {
     max-height: 100px;
-    max-width: 100px;
+    max-width: 150px;
 }
 
 .nav-bar a {
@@ -346,5 +482,29 @@ form input:active, form input:focus {
         background: rgba(255, 255, 255, 0.7);
         width: 100vw !important;
         text-align: center !important;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .title h1, .title strong {
+        font-size: 6rem;
+    }
+    .sub-title h1 {
+        font-size: 3rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .title h1, .title strong {
+        font-size: 3rem;
+    }
+    .sub-title h1 {
+        font-size: 1.5rem;
+    }
+    .tile {
+        margin: 1rem;
+        padding: 1rem;
+        width: 190px;
+        height: 200px;
     }
 }

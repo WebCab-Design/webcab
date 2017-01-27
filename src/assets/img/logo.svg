@@ -1,57 +1,29 @@
-<?xml version="1.0" encoding="utf-8"?>
-<svg viewBox="0.0 0.0 336.0 192.0" xmlns="http://www.w3.org/2000/svg">
-    <defs>
-        <style id="bx-google-fonts">@import url(https://fonts.googleapis.com/css?family=Lato:100,100italic,300,300italic,400,400italic,700,700italic,900,900italic);</style>
-    </defs>
-    <g transform="matrix(0.501009, 0, 0.000001, 0.506164, 192.024231, 94.816505)">
-        <rect width="31.93" height="31.89" y="160.11" x="31.93" style="fill: rgb(255, 153, 0);"/>
-        <rect width="31.93" height="31.89" y="128.221" style="fill: rgb(255, 153, 0);"/>
-        <rect width="31.93" height="31.89" y="128.221" x="63.86" style="fill: rgb(255, 153, 0);"/>
-        <rect width="31.93" height="31.89" y="160.11" x="95.79" style="fill: rgb(255, 153, 0);"/>
-        <rect width="31.93" height="31.89" y="128.221" x="127.72" style="fill: rgb(255, 153, 0);"/>
-        <rect width="31.93" height="31.89" y="160.11" x="159.65" style="fill: rgb(255, 153, 0);"/>
-        <rect width="31.93" height="31.89" y="128.221" x="191.58" style="fill: rgb(255, 153, 0);"/>
-        <rect width="31.93" height="31.89" y="160.11" x="223.511" style="fill: rgb(255, 153, 0);"/>
-        <rect width="31.93" height="31.89" y="128.221" x="255.441" style="fill: rgb(255, 153, 0);"/>
-        <rect width="31.93" height="31.89" y="160.11" x="-351.345" style="fill: rgb(255, 153, 0);"/>
-        <rect width="31.93" height="31.89" y="128.221" x="-383.275" style="fill: rgb(255, 153, 0);"/>
-        <rect width="31.93" height="31.89" y="128.221" x="-319.415" style="fill: rgb(255, 153, 0);"/>
-        <rect width="31.93" height="31.89" y="160.11" x="-287.485" style="fill: rgb(255, 153, 0);"/>
-        <rect width="31.93" height="31.89" y="128.221" x="-255.555" style="fill: rgb(255, 153, 0);"/>
-        <rect width="31.93" height="31.89" y="160.11" x="-223.625" style="fill: rgb(255, 153, 0);"/>
-        <rect width="31.93" height="31.89" y="128.221" x="-191.695" style="fill: rgb(255, 153, 0);"/>
-        <rect width="31.93" height="31.89" y="160.11" x="-159.764" style="fill: rgb(255, 153, 0);"/>
-        <rect width="31.93" height="31.89" y="128.221" x="-127.834" style="fill: rgb(255, 153, 0);"/>
-        <rect width="31.93" height="31.89" y="160.11" x="-95.904" style="fill: rgb(255, 153, 0);"/>
-        <rect width="31.93" height="31.89" y="128.219" x="-63.974" style="fill: rgb(255, 153, 0);"/>
-        <rect width="31.93" height="31.89" y="160.11" x="-32.044" style="fill: rgb(255, 153, 0);"/>
-    </g>
-    <g transform="matrix(0.809461, 0, 0, 0.811669, 1.773863, 126.245285)"/>
-    <g transform="matrix(-0.501009, 0, -0.000001, -0.506164, 143.975769, 97.183487)">
-        <rect width="31.93" height="31.89" y="160.11" x="31.93" style="fill: rgb(51, 51, 51);"/>
-        <rect width="31.93" height="31.89" y="128.221" style="fill: rgb(51, 51, 51);"/>
-        <rect width="31.93" height="31.89" y="128.221" x="63.86" style="fill: rgb(51, 51, 51);"/>
-        <rect width="31.93" height="31.89" y="160.11" x="95.79" style="fill: rgb(51, 51, 51);"/>
-        <rect width="31.93" height="31.89" y="128.221" x="127.72" style="fill: rgb(51, 51, 51);"/>
-        <rect width="31.93" height="31.89" y="160.11" x="159.65" style="fill: rgb(51, 51, 51);"/>
-        <rect width="31.93" height="31.89" y="128.221" x="191.58" style="fill: rgb(51, 51, 51);"/>
-        <rect width="31.93" height="31.89" y="160.11" x="223.511" style="fill: rgb(51, 51, 51);"/>
-        <rect width="31.93" height="31.89" y="128.221" x="255.441" style="fill: rgb(51, 51, 51);"/>
-        <rect width="31.93" height="31.89" y="160.11" x="-351.345" style="fill: rgb(51, 51, 51);"/>
-        <rect width="31.93" height="31.89" y="128.221" x="-383.275" style="fill: rgb(51, 51, 51);"/>
-        <rect width="31.93" height="31.89" y="128.221" x="-319.415" style="fill: rgb(51, 51, 51);"/>
-        <rect width="31.93" height="31.89" y="160.11" x="-287.485" style="fill: rgb(51, 51, 51);"/>
-        <rect width="31.93" height="31.89" y="128.221" x="-255.555" style="fill: rgb(51, 51, 51);"/>
-        <rect width="31.93" height="31.89" y="160.11" x="-223.625" style="fill: rgb(51, 51, 51);"/>
-        <rect width="31.93" height="31.89" y="128.221" x="-191.695" style="fill: rgb(51, 51, 51);"/>
-        <rect width="31.93" height="31.89" y="160.11" x="-159.764" style="fill: rgb(51, 51, 51);"/>
-        <rect width="31.93" height="31.89" y="128.221" x="-127.834" style="fill: rgb(51, 51, 51);"/>
-        <rect width="31.93" height="31.89" y="160.11" x="-95.904" style="fill: rgb(51, 51, 51);"/>
-        <rect width="31.93" height="31.89" y="128.219" x="-63.974" style="fill: rgb(51, 51, 51);"/>
-        <rect width="31.93" height="31.89" y="160.11" x="-32.044" style="fill: rgb(51, 51, 51);"/>
-    </g>
-    <g transform="matrix(1.076034, 0, 0, 1.076034, -11.815396, -10.325621)">
-        <text y="111.75" x="61.16" style="fill: rgb(51, 51, 51); font-family: Lato; font-size: 55.8px; font-variant: small-caps; font-weight: 300; white-space: pre;"><tspan>Web</tspan><tspan style="fill: rgb(255, 153, 0);">CAB</tspan></text>
-        <text x="41.199" y="137.969" style="fill: rgb(51, 51, 51); font-family: Lato; font-size: 13.9px; font-variant: small-caps; font-weight: 300; white-space: pre;">websites | webapps | development | design | seo</text>
-    </g>
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 336 192">
+	<defs>
+		<style>@import url(https://fonts.googleapis.com/css?family=Lato:100,100italic,300,300italic,400,400italic,700,700italic,900,900italic);</style>
+	</defs>
+	<g fill="#F90">
+		<path d="M208.022 175.858h15.997V192h-16z"/>
+		<path d="M192.024 159.717h15.998v16.142h-15.998zm31.996 0h15.996v16.142H224.02z"/>
+		<path d="M240.016 175.858h15.997V192h-15.997zm15.997-16.14h15.997v16.14h-15.997zm15.997 16.14h15.998V192H272.01zm15.998-16.14h15.997v16.14h-15.997zm15.997 16.14h15.998V192h-15.998zm15.998-16.14H336v16.14h-15.997zm-304.006 16.14h15.998V192H15.997zM0 159.718h15.997v16.14H0zm31.995 0h15.997v16.14H31.995zm15.997 16.14H63.99V192h-16zm15.998-16.14h15.996v16.14H63.99zm15.996 16.14h15.997V192H79.987zm15.997-16.14h15.998v16.14H95.987zm15.997 16.14h15.998V192H111.98z"/>
+		<path d="M127.978 159.717h15.998v16.142h-15.998zm15.998 16.14h15.997V192h-15.997zm15.997-16.14h15.997v16.14h-15.997zm15.997 16.14h15.997V192H175.97z"/>
+	</g>
+	<g fill="#333">
+		<path d="M127.978 16.142H111.98V0h15.998z"/>
+		<path d="M143.976 32.283h-15.998V16.14h15.998zm-31.996 0H95.985V16.14h15.997zm-15.996-16.14H79.987V0h15.997zm-15.997 16.14H63.99V16.14h15.997zM63.99 16.143H47.992V0H63.99z"/>
+		<path d="M47.992 32.283H31.995V16.14h15.997zm-15.997-16.14H15.997V0h15.998zm-15.998 16.14H0V16.14h15.997zm304.006-16.14h-15.998V0h15.998zM336 32.283h-15.997V16.14H336zm-31.995 0h-15.997V16.14h15.997zm-15.997-16.14H272.01V0h15.998z"/>
+		<path d="M272.01 32.283h-15.996V16.14h15.997zm-15.996-16.14h-15.997V0h15.997zm-15.997 16.14H224.02V16.14h15.997zm-15.997-16.14h-16V0h15.997z"/>
+		<path d="M208.022 32.283h-15.998V16.14h15.998zm-15.998-16.14h-15.997V0h15.997zm-15.997 16.14H160.03v-16.14h15.997zm-15.997-16.14h-15.997V0h15.997z"/>
+	</g>
+	<g fill="#333" font-family="Lato" font-variant="small-caps" font-weight="300" white-space="pre">
+		<text x="60" y="145" font-size="130" transform="translate(-11.815 -10.326) scale(1.07603)">
+		<text x="61.16" y="111.75" font-size="55.8" transform="translate(-11.815 -10.326) scale(1.07603)">
+			<!-- <tspan>W</tspan><tspan fill="#F90">C</tspan> -->
+			<tspan>Web</tspan><tspan fill="#F90">CAB</tspan>
+		</text>
+		<text x="41.199" y="137.969" font-size="13.9" transform="translate(-11.815 -10.326) scale(1.07603)">
+			websites | webapps | development | design | seo
+		</text>
+	</g>
 </svg>
