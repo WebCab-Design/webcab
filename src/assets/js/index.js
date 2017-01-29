@@ -9,7 +9,7 @@ window.addEventListener('DOMContentLoaded', function () {
 			responseType: 'json',
 			action: 'https://www.enformed.io/zpn17s0',
 			prepare: function (data, resolve) {
-				// data['*default_email'] = 'webcabdesign@gamil.com';
+				data['*default_email'] = 'jburns@webcabdesign.com';
 				return resolve(data);
 			},
 			complete: function (error, success) {
