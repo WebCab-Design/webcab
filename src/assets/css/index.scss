@@ -32,6 +32,7 @@ header {
 	left: 0;
 	width: 100%;
 	height: 52px;
+	z-index: 1 !important;
 	position: fixed;
 	box-shadow: $shadow-light;
 }
@@ -444,6 +445,7 @@ form input:active, form input:focus, form textarea:active, form textarea:focus {
 }
 .nav-list-main {
 	text-align: right !important;
+	z-index: 1;
 }
 
 // mobile
