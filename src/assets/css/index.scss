@@ -50,6 +50,7 @@ section {
 section:first-of-type {
 	padding: 52px 0 0 0;
 }
+
 h1 {
 	font-size: 3rem;
 	font-weight: 100;
@@ -68,6 +69,12 @@ h3 {
 	max-width: 900px;
 	margin: 1.5rem auto 0.75rem auto;
 }
+h4 {
+	font-weight: 400;
+	font-size: 1.2rem;
+	max-width: 900px;
+	margin: 0.75rem auto 0.75rem auto;
+}
 form,  p, ul {
 	margin: auto;
 	max-width: 900px;
@@ -75,6 +82,7 @@ form,  p, ul {
 p  {
 	font-size: 1rem;
 	padding: 0.5rem;
+	line-height: 1.6rem;
 	margin: 1rem auto;
 }
 a {
@@ -86,6 +94,10 @@ ul  {
 	padding: 0.5rem;
 	margin: 1rem auto;
 	list-style-position: inside;
+	li {
+		list-style-type: circle;
+		line-height: 1.6rem;
+	}
 }
 hr {
 	width: 90%;
