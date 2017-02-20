@@ -437,6 +437,7 @@ form input:active, form input:focus, form textarea:active, form textarea:focus {
 	text-decoration: none;
 	display: inline-block;
 	vertical-align: middle;
+	word-wrap: break-word;
 	box-shadow: $shadow-light;
 }
 .tile h3, .tile p {
